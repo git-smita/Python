@@ -1,0 +1,7 @@
+fd = open('meena.mk', 'r')
+tempstr = fd.read()
+fd.close()
+fd = open('meena.mk', 'w')
+tempstr = tempstr.replace('long', 'long123')
+fd.write(tempstr)
+fd.close()
