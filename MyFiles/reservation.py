@@ -72,4 +72,5 @@ if __name__ == '__main__':
 		
 
 	result = solve(reservations)
-	print result  
+	print result 
+	print "log add"
