@@ -2,7 +2,8 @@ from telnetlib import Telnet
 import re
 
 dut = Telnet()
-dut.open("10.49.203.11")
+a=raw_input().strip()
+dut.open(a)
 userPrompt=re.compile("[Uu]sername:")
 passwordPrompt=re.compile("[Pp]assword:")
 execPrompt= re.compile(".*>$")
