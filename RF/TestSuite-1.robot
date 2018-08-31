@@ -2,7 +2,7 @@
 Resource          Resource.robot
 
 *** Variables ***
-${browser}        IE
+${browser}        ${EMPTY}
 
 *** Test Cases ***
 Script-1
